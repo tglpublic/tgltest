@@ -1,3 +1,21 @@
 <html>
 Hello world!
+  
+  <script type="application/ld+json">{
+    "@type": "MedicalWebPage",
+    "@context": "http://schema.org",
+    "about": {
+        "@type": "http://schema.org/MedicalCondition",
+        "name": "XYZ"
+    },
+    "url": "https://tglpublic.github.io/tgltest/public/test.html",
+    "hasPart": [
+        {
+            "@type": "HealthTopicContent",
+            "hasHealthAspect": "http://schema.org/OverviewHealthAspect",
+            "description": "descriptino of XYZ",
+            "url": "https://tglpublic.github.io/tgltest/public/test.html"
+        },
+        ]
+        }</script>
 </html>
